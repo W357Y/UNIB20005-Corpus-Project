@@ -34,5 +34,5 @@ def lexical_diversity(words):
     normal = []
     for word in words:
         normal.append(word.lower())
-    # Conversion to a set removes all duplicate words.
+    # Conversion to a set finds unique words.
     return len(set(words))/len(words)
