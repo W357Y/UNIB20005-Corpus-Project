@@ -1,5 +1,3 @@
-#
-
 import re, nltk, os
 from lxml import html
 
